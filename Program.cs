@@ -101,3 +101,21 @@
 
 // int result = SearchMaxMin(newArray);
 // Console.WriteLine($"{result}");
+
+// Задача 41: Пользователь вводит с клавиатуры M чисел.
+//  Посчитайте, сколько чисел больше 0 ввёл пользователь.
+
+// int BiggestZero(int [] array, int count = 0){
+//   for (int i = 0; i < array.Length; i++)
+//   if (array[i] > 0) count++; return count;
+// }
+// Console.WriteLine("Input min value ");
+// int min = Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine("Input max value ");
+// int max = Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine("Input size array ");
+// int size = Convert.ToInt32(Console.ReadLine());
+
+// int [] newArray = CreateArray(min, max, size);
+// ShowArray(newArray);
+// Console.WriteLine($"{BiggestZero(newArray)}");
